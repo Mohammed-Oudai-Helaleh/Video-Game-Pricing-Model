@@ -45,14 +45,14 @@ joblib (for saving models)
 
 # __Steps__
 1. Data Preprocessing
- -Merged the two datasets and retained only meaningful data.
+ - Merged the two datasets and retained only meaningful data.
 
- -Visualized the data to identify patterns and outliers.
+ - Visualized the data to identify patterns and outliers.
 
- -Noted extreme skewness in some features and applied transformations to address it.
+ - Noted extreme skewness in some features and applied transformations to address it.
 
 2. Feature Engineering
- -Removed tags with low votes and ensured they did not overlap with genres.
+ - Removed tags with low votes and ensured they did not overlap with genres.
 
  -Applied one-hot encoding to tags and genres columns.
 
