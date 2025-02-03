@@ -10,10 +10,10 @@ The following datasets were used in this project:
 The following Python libraries were used in this project:
 
   *Data Manipulation & Analysis:
+   
+   +pandas
 
-    +pandas
-
-    +numpy
+   +numpy
 
   *Visualization:
 
@@ -103,3 +103,14 @@ The following Python libraries were used in this project:
 
 4. Testing
  *Tested the final model on new data to evaluate its performance.
+
+# __Results__
+The GradientBoostingRegressor achieved the best performance with the following metrics:
+
+Mean Absolute Error (MAE): [1.0874]
+
+Mean Squared Error (MSE): [2.5768]
+
+R² Score: [0.7282]
+
+Explained Variance Score: [0.7353]
