@@ -9,39 +9,39 @@ The following datasets were used in this project:
 # __Libraries Used__
 The following Python libraries were used in this project:
 
-  *Data Manipulation & Analysis:
-   
-   +pandas
+Data Manipulation & Analysis:
 
-   +numpy
+pandas
 
-  *Visualization:
+numpy
 
-   +matplotlib.pyplot
+Visualization:
 
-   +seaborn
+matplotlib.pyplot
 
-  *Machine Learning:
+seaborn
 
-   +sklearn (including preprocessing, metrics, model_selection, ensemble, feature_selection, linear_model)
+Machine Learning:
 
-   +catboost
+sklearn (including preprocessing, metrics, model_selection, ensemble, feature_selection, linear_model)
 
-   +lightgbm
+catboost
 
-   +optuna (for hyperparameter optimization)
+lightgbm
 
-  *Utilities:
+optuna (for hyperparameter optimization)
 
-   +collections.Counter
+Utilities:
 
-   +ast
+collections.Counter
 
-   +scipy.stats (for boxcox transformation)
+ast
 
-   +scipy.optimize (for minimize)
+scipy.stats (for boxcox transformation)
 
-   +joblib (for saving models)
+scipy.optimize (for minimize)
+
+joblib (for saving models)
 
 # __Steps__
 1. Data Preprocessing
