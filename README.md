@@ -45,64 +45,64 @@ joblib (for saving models)
 
 # __Steps__
 1. Data Preprocessing
- *Merged the two datasets and retained only meaningful data.
+ -Merged the two datasets and retained only meaningful data.
 
- *Visualized the data to identify patterns and outliers.
+ -Visualized the data to identify patterns and outliers.
 
- *Noted extreme skewness in some features and applied transformations to address it.
+ -Noted extreme skewness in some features and applied transformations to address it.
 
 2. Feature Engineering
- *Removed tags with low votes and ensured they did not overlap with genres.
+ -Removed tags with low votes and ensured they did not overlap with genres.
 
- *Applied one-hot encoding to tags and genres columns.
+ -Applied one-hot encoding to tags and genres columns.
 
- *Removed columns with values below a threshold and aggregated them into an "other" category.
+ -Removed columns with values below a threshold and aggregated them into an "other" category.
 
- *Transformed supported_languages and full_audio_languages into their respective counts.
+ -Transformed supported_languages and full_audio_languages into their respective counts.
 
- *Converted windows, mac, and linux columns to binary values (dropped windows as it was always True).
+ -Converted windows, mac, and linux columns to binary values (dropped windows as it was always True).
 
- *Created new columns for review categories (positive and negative reviews) and total review counts.
+ -Created new columns for review categories (positive and negative reviews) and total review counts.
 
- *Calculated the average of the owners column.
+ -Calculated the average of the owners column.
 
- *Applied logarithmic transformations to achievements, CCU, and owners columns to reduce skewness.
+ -Applied logarithmic transformations to achievements, CCU, and owners columns to reduce skewness.
 
- *Applied a Box-Cox transformation to the price column (target variable) to handle skewness.
+ -Applied a Box-Cox transformation to the price column (target variable) to handle skewness.
 
 3. Modeling
- *Defined a function to evaluate all models.
+ -Defined a function to evaluate all models.
 
- *Split the data into features and target variables.
+ -Split the data into features and target variables.
 
- *Clipped extreme values in the target variable to handle outliers.
+ -Clipped extreme values in the target variable to handle outliers.
 
- *Scaled features using RobustScaler to mitigate the impact of outliers.
+ -Scaled features using RobustScaler to mitigate the impact of outliers.
 
- *Split the data into training and testing sets.
+ -Split the data into training and testing sets.
 
- *Trained and evaluated the following models:
+ -Trained and evaluated the following models:
 
-  +CatBoost
+  -CatBoost
 
-  +RandomForestRegressor
+  -RandomForestRegressor
 
-  +ExtraTreesRegressor
+  -ExtraTreesRegressor
 
-  +LightGBM
+  -LightGBM
 
-  +VotingRegressor (ensemble of the above models)
+  -VotingRegressor (ensemble of the above models)
 
-  +GradientBoostingRegressor (ensemble of the above models)
+  -GradientBoostingRegressor (ensemble of the above models)
 
-  +Used optuna for hyperparameter optimization.
+  -Used optuna for hyperparameter optimization.
 
-  +Selected the GradientBoostingRegressor as the final model due to its superior accuracy and minimal error margin.
+  -Selected the GradientBoostingRegressor as the final model due to its superior accuracy and minimal error margin.
 
-  +Saved the trained models using joblib.
+  -Saved the trained models using joblib.
 
 4. Testing
- *Tested the final model on new data to evaluate its performance.
+ -Tested the final model on new data to evaluate its performance.
 
 # __Results__
 The GradientBoostingRegressor achieved the best performance with the following metrics:
