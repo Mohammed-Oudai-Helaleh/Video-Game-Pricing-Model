@@ -1,6 +1,12 @@
 # Video-Game-Pricing-Model
 This project uses machine learning regression techniques to predict video game prices based on various features. The model is built using datasets from multiple sources and leverages a variety of Python libraries for data preprocessing, visualization, and modeling.
 
+# __Download Trained Models__
+
+The following trained models are too large to include in this repository. You can download them from Google Drive:
+
+[Download all models](https://drive.google.com/drive/folders/1xS1gMfZrAwTSeyxAv8TaN1Z83MSh25Es?usp=sharing)
+
 # __Datasets__
 The following datasets were used in this project:
 1. [games.csv](https://cdn-lfs.hf.co/repos/ea/91/ea91ddc132bbc09ba285428fb62ad8a1445f095f374365f846d0916e373ea7c6/c755572b804a5c43f4f005aacef23cadfe92ae77d03daebf908d521c81285821?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27games.csv%3B+filename%3D%22games.csv%22%3B&response-content-type=text%2Fcsv&Expires=1735972680&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNTk3MjY4MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy9lYS85MS9lYTkxZGRjMTMyYmJjMDliYTI4NTQyOGZiNjJhZDhhMTQ0NWYwOTVmMzc0MzY1Zjg0NmQwOTE2ZTM3M2VhN2M2L2M3NTU1NzJiODA0YTVjNDNmNGYwMDVhYWNlZjIzY2FkZmU5MmFlNzdkMDNkYWViZjkwOGQ1MjFjODEyODU4MjE%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=sA38oeL7QgSgr11FrQMgjop4jqkYudUyPSNHDm4RanwRieAzXW4wr5pBkZ5Pn2XD1JhiBOgVu6UtQCE860kwAG6qXcSGinBL4u5TRsFWnJigNK4BL0JZ3VTvUgAmejsB5O06-kF9VRhYhc%7EYZNyOIMGI7GdNgMroNRDJUk9a%7E2iEp5hIh%7EYmwxyh82QELTT%7EWI3uOiBbyg-1P4uQ9xG6P3s-b6PoBNEe3lXgEsBuSjTHZ25pUaslfQH7Y4ZxofZnxZ6ht9HED-Ymh4%7EcdARQK0RUdE733LPNuDTaR6InsLZ6rLC9N5Nky7RCiG61q3hbU%7Ea45q3jrwHnCXPJIPHngg__&Key-Pair-Id=K3RPWS32NSSJCE)
